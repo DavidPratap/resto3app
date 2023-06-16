@@ -7,7 +7,7 @@ from PIL import Image
 st.title("Dog Cat Classifier")
 
 # Step1: Load the model
-model=load_model("cats_dogs_small_3.h5")
+model=load_model("cats_dogs_small_2.h5")
 
 # Step2: Load the image 
 uploaded_file=st.file_uploader('Choose the database', accept_multiple_files=False)
